@@ -6,7 +6,7 @@ metadata:
     - payEnv
   namespace: default
 spec:
-  - name: "Validate the response status "
+  - name: "Validate the response status"
     key: "status"
     value: "Not Found"
     action: "notEquals" 
