@@ -3,7 +3,7 @@ metadata:
   name: TestPaymentAssertion
   version: 1.0.0
   tags:
-    - payEnv
+    - payEnv 
   namespace: default
 spec:
   - name: "Validate the response status"
@@ -28,7 +28,7 @@ spec:
     action: "inValidateSchema"
   - name: "Less Than the response Time"
     key: "responseTime"
-    value: 2000000
+    value: 200000
     action: "lessThan"
   - name: "Greater Than the response Time"
     key: "responseTime"
