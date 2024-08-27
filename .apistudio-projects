@@ -1,0 +1,42 @@
+projects:
+  Test disable check:
+    description: ''
+    tags: []
+  proj-with-tests-and-asets:
+    description: >-
+      Basic accessibility support enabled for project creation modals, gateway
+      configuration forms, toast messages, input components and tag components.
+    tags:
+      - api
+      - apigw
+  valid-proj:
+    description: ''
+    tags: []
+  version-check:
+    description: ''
+    tags: []
+    lastUpdated: 1724055478378
+  policy-support:
+    description: ''
+    tags: []
+    lastUpdated: 1724222037780
+  vinay-test:
+    description: ''
+    tags: []
+    lastUpdated: 1724406431940
+  policy-support2:
+    description: ''
+    tags: []
+    lastUpdated: 1724407348513
+  fg:
+    description: ''
+    tags: []
+    lastUpdated: 1724407354627
+  fgfd:
+    description: ''
+    tags: []
+    lastUpdated: 1724407682895
+  tuytu:
+    description: ''
+    tags: []
+    lastUpdated: 1724408109910
