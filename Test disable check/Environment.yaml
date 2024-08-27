@@ -1,0 +1,18 @@
+kind: environment
+metadata:
+  name: TestPaymentsEnvironment
+  version: 1.0.0
+  tags:
+    - payEnv
+  namespace: default
+spec:
+  variables:
+    - key: "content-type"
+      value: "application/json"
+      isSecret: true
+    - key: "dogname"
+      value: "tommy"
+      isSecret: true
+    - key: "method" 
+      value: "POST"
+      isSecret: true

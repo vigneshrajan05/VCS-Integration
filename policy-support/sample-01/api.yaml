@@ -1,0 +1,15 @@
+kind: api
+apiVersion: api.webmethods.io/v1
+metadata:
+  name: newTestAPI
+  namespace: dev
+  version: 1.1
+  tags:
+    - swagger
+    - sample
+  type: REST
+spec:
+  api-spec: 
+    $path: petstore.yaml
+  policy-seq: 
+    - $ref: dev:dev_policies:1.2

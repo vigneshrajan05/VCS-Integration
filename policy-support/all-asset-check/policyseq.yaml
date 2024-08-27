@@ -1,0 +1,22 @@
+kind: PolicySeq
+apiVersion: api.webmethods.io/daso
+metadata:
+  name: policyseq
+  version: alpha
+  namespace: daso
+  tags:
+    - seq
+spec:
+  transport:
+    - $ref: daso:transport:alpha
+  iam:
+    - $ref: daso:My_IAM:alpha
+  monitoring:
+    - $ref: daso:log_invocation:alpha
+  routing:
+    - $ref: daso:routing:alpha
+  req-processing:
+    - $ref: daso:validate_API_Specification_policy:alpha
+    - $ref: daso:request_processing_policy:alpha
+  res-processing:
+  #  - $ref: daso:response-processing-policy:alpha

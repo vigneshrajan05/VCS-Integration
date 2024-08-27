@@ -1,0 +1,28 @@
+kind: PolicySeq
+apiVersion: api.webmethods.io/v1
+metadata:
+  name: dev_policies
+  version: 1.2
+  namespace: dev
+  tags:
+    - dev_policies
+spec:
+  transport:
+    - $ref: dev:enable_https:1.0
+  # iam:
+  #   - $ref: dev:my_iam:1.0
+  # monitoring:
+  #   - $ref: enable_metrics:1.0
+  # - $ref: dev:rate_limiter:1.0
+  routing:
+    - $ref: dev:my-default-routing:1.0
+  # req-processing:
+  #   - $ref: request-processing-policy:1.0
+  #   - $ref: data-masking:1.0
+  #   - $ref: custom-extension:1.0
+  # res-processing:
+  #   - $ref: response-processing-policy:1.0
+  #   - $ref: custom-extension:1.0
+  #   - $ref: data-masking:1.0
+  # error-handling:
+  #   - $ref: dev:error-handling-policy:1.0

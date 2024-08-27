@@ -1,0 +1,22 @@
+kind: environment
+metadata:
+  name: dasoenv
+  version: alpha
+  namespace: daso
+  tags:
+    - payEnv
+spec:
+  variables:
+    - key: "content-type"
+      value: "application/json"
+      isSecret: false
+    - key: "dogname"
+      value: "tommy"
+      isSecret: false
+    - key: "method" 
+      value: "POST"
+      isSecret: false
+    - key: "accept" 
+      value: "application/json"
+      isSecret: false
+

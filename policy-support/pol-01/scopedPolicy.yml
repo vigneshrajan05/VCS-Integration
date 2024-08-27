@@ -1,0 +1,6 @@
+kind: scope
+metadata:
+    name: MyGP
+    version: '1.0'
+spec:
+    dummyObj: 'hello'

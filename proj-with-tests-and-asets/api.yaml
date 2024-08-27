@@ -1,0 +1,16 @@
+kind: api
+apiVersion: api.webmethods.io/v1
+metadata:
+  name: vmmTest01
+  namespace: dev
+  version: 1.0
+  tags:
+    - vmms
+    - soks
+  type: REST
+spec:
+  mocked: true
+  api-spec: 
+    $path: './sub/petstore.yaml'
+  policy-seq: 
+    - $ref: dev:dev_policies:1.0

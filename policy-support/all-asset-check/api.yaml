@@ -1,0 +1,17 @@
+kind: api
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: Aadhira
+  namespace: daso
+  version: alpha
+  tags:
+    - one
+    - two
+    - three
+  type: REST
+spec:
+  mocked: true
+  api-spec: 
+    $path: petstore.yaml
+  policy-seq: 
+    - $ref: daso:policyseq:alpha

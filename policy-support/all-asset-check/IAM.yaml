@@ -1,0 +1,17 @@
+kind: IdentifyAndAuthorize
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: My_IAM
+  version: alpha
+  namespace: daso
+  tags:
+    - IAM
+spec:
+  enabled: true
+  triggerPolicyViolation: true
+  identificationType:
+    or:
+      apiKey:
+        applicationLookup: 'registered'
+      httpBasicAuth:
+        applicationLookup: 'registered'

@@ -1,0 +1,27 @@
+kind: TransformResponse
+apiVersion: api.webmethods.io/beta
+metadata:
+  namespace: daso
+  name: response-processing-policy
+  version: alpha
+spec:
+  condition: (${response.headers.name} equals svis)
+  transformations:
+    set:
+      - key: ${response.headers.h2}
+        value: test-header-value
+    setStatus: # Introduced for Response Processing
+       code: 400
+       message: Invalid request
+    setPayload:
+      content-types:
+        - application/xml: <test></test>
+      xsl:
+        - $path: format.xsl
+    remove:
+      - ${response.headers.name}
+    namespaces:
+      - prefix: ps1
+        URI: http://test.com
+      - prefix: ps2
+        URI: http://test2.com

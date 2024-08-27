@@ -1,0 +1,47 @@
+kind: test
+metadata:
+  name: Sanity
+  version: alpha
+  tags:
+    - functional
+  namespace: daso
+spec:
+  api:
+    $ref: daso:Aadhi:alpha
+  environment:
+   $ref: daso:dasoenv:alpha
+  request:
+    - method: GET
+      resource: /pet/11
+      headers:
+        - key: Content-Type
+          value: ${content-type}
+        - key: Accept
+          value: ${accept}
+        - key: x-gateway-apiKey
+          value: "4536a486-3dad-4260-ac64-47ac2261de8f"
+      auth:
+        noauth: true
+      settings:
+        sslVerification: false
+        encodeURL: true
+      assertions:
+         $ref: daso:basicassert:alpha
+    - method: GET
+      resource: /pet/{petid}
+      headers:
+        - key: Content-Type
+          value: ${content-type}
+        - key: Accept
+          value: ${accept}
+      auth:
+        noauth: true
+      settings:
+        sslVerification: false
+        encodeURL: true
+      assertions:
+            expressions:
+              - name: "Validate the response code"
+                key: "code"
+                value: 200
+                action: "equals"

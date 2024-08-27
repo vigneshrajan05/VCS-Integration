@@ -1,0 +1,16 @@
+kind: assertion
+metadata:
+  name: basicassert
+  version: alpha
+  namespace: daso
+  tags:
+    - payEnv
+spec:
+  - name: "Validate the response status"
+    key: "code"
+    value: 200
+    action: "equals" 
+  - name: "Less Than the response Time"
+    key: "responseTime"
+    value: 1000
+    action: "lessThan"

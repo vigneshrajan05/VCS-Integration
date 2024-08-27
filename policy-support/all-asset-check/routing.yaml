@@ -1,0 +1,13 @@
+kind: Route
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: routing
+  version: alpha
+  namespace: daso
+  tags:
+    - routing
+    - route
+    - policy
+spec:
+  default-endpoint:
+    $ref: daso:endpoint:alpha
