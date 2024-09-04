@@ -1,2 +1,1 @@
-This is a test repository to check the integration of GitHub APIs.
-This line is added to test commit integration.
+This is a test repository to check the integration of GitHub APIs and operations like commit, push, raise PR etc.
