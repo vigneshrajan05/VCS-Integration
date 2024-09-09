@@ -18,9 +18,9 @@
     "tags": [
         {
             "name": "pet",
-            "description": null,
+            "description": 'desc',
             "externalDocs": {
-                "description": "Find out more",
+                "description": "Find out more ",
                 "url": "http://swagger.io"
             }
         },
