@@ -2,7 +2,7 @@ kind: HTTPEndpoint
 apiVersion: api.webmethods.io/beta
 metadata:
   name: default_endpoint
-  version: 1.0
+  version: '1.0'
   namespace: dev
 spec:
   url: http://test.com
