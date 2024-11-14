@@ -1,0 +1,10 @@
+kind: api
+metadata:
+  name: FinanceAPI
+  version: '1.0'
+  namespace: dev
+  tags:
+    - api
+spec:
+  api-spec:
+    path: ../swagger.json

@@ -1,6 +1,0 @@
-kind: Route
-metadata:
-    name: 'MyRoutePolicy'
-    version: '1.0'
-spec:
-    $path: ''
