@@ -1,6 +1,6 @@
 kind: api
 metadata:
-    name: 'PaymentsAPI'
+    name: 'dummyAPI'
     version: '1.0'
     namespace: 'dev'
 spec:
