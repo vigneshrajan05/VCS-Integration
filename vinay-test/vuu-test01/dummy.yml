@@ -1,6 +1,6 @@
-kind: api
+kind: PolicySequence
 metadata:
-    name: 'dummyAPI'
+    name: 'MyPolicySeq'
     version: '1.0'
     namespace: 'dev'
 spec:
