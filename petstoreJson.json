@@ -18,7 +18,7 @@
     "tags": [
         {
             "name": "pet",
-            "description": 'desc',
+            "description": "ID of pet that needs to be fetched",
             "externalDocs": {
                 "description": "Find out more ",
                 "url": "http://swagger.io"
