@@ -1,0 +1,8 @@
+kind: api
+metadata:
+    name: 'PaymentsAPI'
+    version: '1.0'
+    namespace: 'dev'
+spec:
+    api-spec: 
+        $path: 'specs/petstore.yml'
