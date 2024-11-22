@@ -2,7 +2,7 @@ kind: api
 metadata:
     name: PaymentsAPI
     version: '1.0'
-    namespace: 'dev'
+    namespace: 'main'
 spec:
     api-spec:
         $path: 'api/spec/swagger.json'
