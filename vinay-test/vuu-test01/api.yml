@@ -8,7 +8,7 @@ spec:
         $path: 'api/spec/swagger.json'
     policy-sequence:
         transport:
-            $ref: 'dev: MyHTTPS: 1.0'
+            $ref: 'dev: MyHTTPS: 2.0'
         IAM:
             $ref: 'MyIAM: 1.0'
     
