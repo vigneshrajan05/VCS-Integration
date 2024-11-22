@@ -3,3 +3,4 @@ metadata:
     name: PaymentsAPI
     version: '1.0'
     namespace: 'dev'
+spec:
