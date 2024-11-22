@@ -6,4 +6,7 @@ metadata:
 spec:
     api-spec:
         $path: 'api/spec/swagger.json'
+    policy-sequence:
+        transport:
+            $ref: 'dev: MyHTTPS: 1.0'
     
