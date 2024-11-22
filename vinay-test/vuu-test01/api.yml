@@ -9,4 +9,6 @@ spec:
     policy-sequence:
         transport:
             $ref: 'dev: MyHTTPS: 1.0'
+        IAM:
+            $ref: 'MyIAM: 2.0'
     
