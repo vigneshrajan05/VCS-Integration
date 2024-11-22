@@ -7,4 +7,4 @@ metadata:
     - api
 spec:
   api-spec:
-    path: ../swagger.json
+    path: '../swagger.json'
