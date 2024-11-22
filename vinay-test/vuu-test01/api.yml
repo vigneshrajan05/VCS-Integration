@@ -4,4 +4,6 @@ metadata:
     version: '1.0'
     namespace: 'dev'
 spec:
-    $path: 'api/spec/swagger.json'
+    api-spec:
+        $path: 'api/spec/swagger.json'
+    
