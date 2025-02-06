@@ -14,10 +14,10 @@ projects:
     tags: []
     lastUpdated: 1724222037780
   vinay-test:
-    description: This is an edited description
+    description: This is edited
     tags:
       - api
-    lastUpdated: 1738834959913
+    lastUpdated: 1738855450244
   version-check-2:
     description: This is a sample description
     tags:
