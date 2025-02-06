@@ -9,10 +9,6 @@ projects:
     tags:
       - api
       - apigw
-  version-check:
-    description: ''
-    tags: []
-    lastUpdated: 1724055478378
   policy-support:
     description: ''
     tags: []
@@ -28,3 +24,8 @@ projects:
       - api
       - apiproject
     lastUpdated: 1738837923019
+  version-check-2:
+    description: This is a sample description
+    tags:
+      - api
+    lastUpdated: 1738839325994
