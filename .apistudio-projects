@@ -18,14 +18,14 @@ projects:
     tags:
       - api
     lastUpdated: 1738834959913
-  valid-project:
-    description: .
-    tags:
-      - api
-      - apiproject
-    lastUpdated: 1738837923019
   version-check-2:
     description: This is a sample description
     tags:
       - api
     lastUpdated: 1738839325994
+  valid-project-edited:
+    description: This is edited.
+    tags:
+      - api
+      - apigw
+    lastUpdated: 1738844245355
