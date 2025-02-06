@@ -9,9 +9,6 @@ projects:
     tags:
       - api
       - apigw
-  valid-proj:
-    description: ''
-    tags: []
   version-check:
     description: ''
     tags: []
@@ -25,3 +22,9 @@ projects:
     tags:
       - api
     lastUpdated: 1738834959913
+  valid-project:
+    description: .
+    tags:
+      - api
+      - apiproject
+    lastUpdated: 1738837923019
