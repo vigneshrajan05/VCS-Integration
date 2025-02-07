@@ -1,7 +1,4 @@
 projects:
-  Test disable check:
-    description: ''
-    tags: []
   proj-with-tests-and-asets:
     description: >-
       Basic accessibility support enabled for project creation modals, gateway
