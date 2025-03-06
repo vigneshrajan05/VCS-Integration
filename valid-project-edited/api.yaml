@@ -17,3 +17,4 @@ spec:
     - $ref: dev:dev_policies:1.0
   scopes:
     - $ref: MyScope-vcs:1.0
+    - $ref: 'vcs-scope3:'

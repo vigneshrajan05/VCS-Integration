@@ -1,0 +1,10 @@
+kind: Scope
+apiVersion: api.webmethods.io/beta
+metadata:
+  name: vcs-scope3-scope
+  version: ''
+  tags: []
+  description: ''
+spec:
+  resources: []
+  policy-seq: []
