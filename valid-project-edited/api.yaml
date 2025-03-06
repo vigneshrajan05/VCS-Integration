@@ -3,7 +3,7 @@ apiVersion: api.webmethods.io/v1
 metadata:
   name: DasoAPI1
   namespace: dev
-  version: 1.0
+  version: 1
   tags:
     - swagger
     - daso
@@ -11,7 +11,9 @@ metadata:
   type: REST
 spec:
   mocked: true
-  api-spec: 
+  api-spec:
     $path: petstore.yaml
-  policy-seq: 
+  policy-seq:
     - $ref: dev:dev_policies:1.0
+  scopes:
+    - $ref: MyScope-vcs:1.0
