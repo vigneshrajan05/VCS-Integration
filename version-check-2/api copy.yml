@@ -1,7 +1,0 @@
-kind: policySeq
-metadata:
-    name: pol
-    version: '1'
-spec:
-    IAM:
-        $ref: version-check:1.0

@@ -1,7 +1,0 @@
-kind: api
-metadata:
-    name: version-check
-    version: '1'
-spec:
-    policy-seq:
-        $ref: pol:1
