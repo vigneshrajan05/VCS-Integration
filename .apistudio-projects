@@ -10,9 +10,3 @@ projects:
     description: ''
     tags: []
     lastUpdated: 1724222037780
-  valid-project-edited:
-    description: This is edited.
-    tags:
-      - api
-      - apigw
-    lastUpdated: 1738844245355
