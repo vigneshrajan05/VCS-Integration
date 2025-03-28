@@ -2,7 +2,7 @@ kind: api
 apiVersion: api.webmethods.io/beta
 metadata:
   name: Api2
-  namespace: prod
+  namespace: prods-dev
   version: '1.0'
   tags: []
   type: REST
