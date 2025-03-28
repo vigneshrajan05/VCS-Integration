@@ -10,11 +10,6 @@ projects:
     description: ''
     tags: []
     lastUpdated: 1724222037780
-  version-check-2:
-    description: This is a sample description
-    tags:
-      - api
-    lastUpdated: 1738839325994
   valid-project-edited:
     description: This is edited.
     tags:
