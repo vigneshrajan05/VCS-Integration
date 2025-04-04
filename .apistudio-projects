@@ -4,8 +4,8 @@ projects:
       Basic accessibility support enabled for project creation modals, gateway
       configuration forms, toast messages, input components and tag components.
     tags:
-      - api
       - apigw
+    lastUpdated: 1743759399635
   policy-support:
     description: ''
     tags: []
