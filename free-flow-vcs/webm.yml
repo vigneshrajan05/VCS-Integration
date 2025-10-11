@@ -1,0 +1,11 @@
+kind: StagedPolicySequence
+apiVersion: api.ibm.com/v1
+metadata:
+  name: webm
+  namespace: free-flow-vcs
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - webMethods
+spec: {}

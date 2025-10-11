@@ -1,0 +1,18 @@
+kind: DataPowerAssembly
+apiVersion: api.ibm.com/v1
+metadata:
+  name: dp
+  namespace: free-flow-vcs
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - datapower
+spec:
+  x-ibm-configuration:
+    gateway: datapower-api-gateway
+    assembly:
+      execute:
+        - gatewayscript:
+            version: 2.0.0
+            title: gatewayscript

@@ -1,0 +1,36 @@
+kind: invoke
+apiVersion: api.ibm.com/v1
+metadata:
+  name: invoke-1
+  namespace: free-flow-vcs
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  endpoint:
+    http:
+      target:
+        timeout: 30
+        url: http://daso.dev.fyre.ibm.com:5555
+        chunkedUploads: true
+        compression: true
+        persistentConnection: true
+        tlsClientProfile: some_tls_profile
+        version: HTTP/1.1
+      verb: CUSTOM
+      statusException:
+        - pattern: 4xx
+  extensions:
+    lwgw-gateway:
+      apiVersion: api.ibm.com/v1
+  input: request
+  output: response
+  cache:
+    expire:
+      static:
+        seconds: 70
+    scope:
+      wideScope:
+        scopeId: '12345'

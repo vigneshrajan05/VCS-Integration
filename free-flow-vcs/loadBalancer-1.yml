@@ -1,0 +1,16 @@
+kind: loadBalancer
+apiVersion: api.ibm.com/v1
+metadata:
+  name: loadBalancer-1
+  namespace: free-flow-vcs
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  input: request-lb
+  roundRobinHttp:
+    verb: CUSTOM
+    endpoints: []
+  output: response-lb

@@ -1,0 +1,15 @@
+kind: FreeFlowPolicySequence
+apiVersion: api.ibm.com/v1
+metadata:
+  name: nano-gw-policy
+  namespace: free-flow-vcs
+  version: '1.0'
+  tags: []
+  labels:
+    gatewayTypes:
+      - nano
+spec:
+  main:
+    - $ref: free-flow-vcs:loadBalancer-1:1.0
+    - $ref: free-flow-vcs:invoke-1:1.0
+    - $ref: free-flow-vcs:luaScript-1:1.0
