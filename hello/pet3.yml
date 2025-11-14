@@ -1,0 +1,11 @@
+ kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: pet3
+  namespace: hello
+  version: 1.0.27
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ./pet3-spec.json
