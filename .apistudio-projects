@@ -45,3 +45,11 @@ projects:
     description: ''
     tags: []
     lastUpdated: 1789144503792
+  wizard-world-api:
+    id: 6Jm4yzcw
+    description: A comprehensive REST API for exploring the magical world of Harry Potter
+    tags:
+      - rest
+      - harry-potter
+      - wizarding-world
+    lastUpdated: 1789644193034
