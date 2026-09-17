@@ -1,0 +1,128 @@
+{
+  "nodes": [
+    {
+      "id": "1fe05295-840e-4917-a101-f6253df6d374:0",
+      "projectId": "6Jm4yzcw",
+      "filePath": "wizard-world-api/apis/wizard-world-api.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1789644198011,
+      "schemaVersion": 1,
+      "kind": "API",
+      "name": "wizard-world-api",
+      "namespace": "dev",
+      "version": "1.0.1",
+      "contentHash": "b2fbe422679ea0f9"
+    },
+    {
+      "id": "49ee4917-c737-4bd9-96dc-c14e23b777c7:0",
+      "projectId": "6Jm4yzcw",
+      "filePath": "wizard-world-api/policies/wizard-world-api-invoke.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1789644200360,
+      "schemaVersion": 1,
+      "kind": "Invoke",
+      "name": "wizard-world-api-invoke",
+      "namespace": "dev",
+      "version": "1.0.0",
+      "contentHash": "29fabb343ee5bb0d"
+    },
+    {
+      "id": "8cb62a86-2edc-4c23-ad65-662c26d0704c:0",
+      "projectId": "6Jm4yzcw",
+      "filePath": "wizard-world-api/.keep",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1789644195587,
+      "schemaVersion": 1
+    },
+    {
+      "id": "911f1082-9f04-49f5-bc13-6b0ff5e7cbb7:0",
+      "projectId": "6Jm4yzcw",
+      "filePath": "wizard-world-api/policies/wizard-world-api-uri-schemes.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1789644198776,
+      "schemaVersion": 1,
+      "kind": "URISchemes",
+      "name": "wizard-world-api-uri-schemes",
+      "namespace": "dev",
+      "version": "1.0.0",
+      "contentHash": "cab36904f6cd9c04"
+    },
+    {
+      "id": "9bb4fd16-4c91-4e8c-a33d-03dc2ba373c8:0",
+      "projectId": "6Jm4yzcw",
+      "filePath": "wizard-world-api/policies/wizard-world-api-sequence.yml",
+      "docIndex": 0,
+      "assetType": "resource",
+      "lastIndexed": 1789644199633,
+      "schemaVersion": 1,
+      "kind": "FreeFlowPolicySequence",
+      "name": "wizard-world-api-sequence",
+      "namespace": "dev",
+      "version": "1.0.0",
+      "contentHash": "364dc4b9a45338a0"
+    },
+    {
+      "id": "a060151d-c034-4dfb-b930-58712578c2f6:0",
+      "projectId": "6Jm4yzcw",
+      "filePath": "wizard-world-api/spec/wizard-world-api-openapi.json",
+      "docIndex": 0,
+      "assetType": "support",
+      "lastIndexed": 1789644197083,
+      "schemaVersion": 1
+    }
+  ],
+  "edges": [
+    {
+      "id": "1e4c73c3-4ace-40fa-9ece-66a4b77723b8",
+      "projectId": "6Jm4yzcw",
+      "sourceNodeId": "9bb4fd16-4c91-4e8c-a33d-03dc2ba373c8:0",
+      "targetNodeId": "49ee4917-c737-4bd9-96dc-c14e23b777c7:0",
+      "targetRefType": "same-project",
+      "targetRefString": "dev:wizard-world-api-invoke:1.0.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1789644199634,
+      "lastValidated": 1789644200363
+    },
+    {
+      "id": "416ef8ae-a31f-4f02-b790-5915c02921d9",
+      "projectId": "6Jm4yzcw",
+      "sourceNodeId": "1fe05295-840e-4917-a101-f6253df6d374:0",
+      "targetNodeId": "a060151d-c034-4dfb-b930-58712578c2f6:0",
+      "targetRefType": "same-project",
+      "targetRefString": "../spec/wizard-world-api-openapi.json",
+      "targetRefKind": "support",
+      "isValid": true,
+      "createdAt": 1789644198013,
+      "lastValidated": 1789644198013
+    },
+    {
+      "id": "6c0ab28c-5fe1-44c2-bb9b-50bacb6db2c1",
+      "projectId": "6Jm4yzcw",
+      "sourceNodeId": "1fe05295-840e-4917-a101-f6253df6d374:0",
+      "targetNodeId": "9bb4fd16-4c91-4e8c-a33d-03dc2ba373c8:0",
+      "targetRefType": "same-project",
+      "targetRefString": "dev:wizard-world-api-sequence:1.0.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1789644198013,
+      "lastValidated": 1789644199636
+    },
+    {
+      "id": "a1d30050-3bae-45a9-81c0-3066ff992a37",
+      "projectId": "6Jm4yzcw",
+      "sourceNodeId": "1fe05295-840e-4917-a101-f6253df6d374:0",
+      "targetNodeId": "911f1082-9f04-49f5-bc13-6b0ff5e7cbb7:0",
+      "targetRefType": "same-project",
+      "targetRefString": "dev:wizard-world-api-uri-schemes:1.0.0",
+      "targetRefKind": "resource",
+      "isValid": true,
+      "createdAt": 1789644198013,
+      "lastValidated": 1789644198780
+    }
+  ]
+}

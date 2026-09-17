@@ -1,0 +1,15 @@
+kind: Invoke
+apiVersion: api.ibm.com/v1
+metadata:
+  name: wizard-world-api-invoke
+  namespace: dev
+  version: 1.0.0
+  tags: []
+  description: Invoke policy to route requests to the Wizard World API backend
+spec:
+  endpoint:
+    http:
+      target:
+        url: https://wizard-world-api.herokuapp.com$(request.path)$(request.search)
+        timeout: 120
+        persistentConnections: true

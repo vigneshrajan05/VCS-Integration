@@ -1,0 +1,10 @@
+kind: FreeFlowPolicySequence
+apiVersion: api.ibm.com/v1
+metadata:
+  name: wizard-world-api-sequence
+  namespace: dev
+  version: 1.0.0
+  tags: []
+spec:
+  main:
+    - $ref: dev:wizard-world-api-invoke:1.0.0

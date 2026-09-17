@@ -1,0 +1,15 @@
+kind: API
+apiVersion: api.ibm.com/v1
+metadata:
+  name: wizard-world-api
+  version: 1.0.1
+  namespace: dev
+  tags: []
+  type: REST
+spec:
+  api-spec:
+    $path: ../spec/wizard-world-api-openapi.json
+  uriSchemes:
+    $ref: dev:wizard-world-api-uri-schemes:1.0.0
+  policy-sequence:
+    - $ref: dev:wizard-world-api-sequence:1.0.0

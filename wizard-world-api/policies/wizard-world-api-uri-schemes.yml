@@ -1,0 +1,11 @@
+kind: URISchemes
+apiVersion: api.ibm.com/v1
+metadata:
+  name: wizard-world-api-uri-schemes
+  namespace: dev
+  version: 1.0.0
+  tags: []
+  description: URI schemes configuration for Wizard World API
+spec:
+  uriSchemes:
+    - https
